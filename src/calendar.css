@@ -1,0 +1,60 @@
+.schedule{
+    font-family: arial, sans-serif;
+    background-color: #b4dfe5;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.schedule h2{
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.schedule p{
+    margin-left: 30px;
+    text-align: left;
+}
+.schedule div{
+    padding: 8px;
+}
+.top{   
+    background-color: #fab8a6;
+    display: flex;
+}
+.top .small{
+    flex: 1;
+}
+.top .large{
+    flex: 3;
+}
+.row{   
+    display: flex;
+}
+.row .small{
+    flex: 1;
+}
+.row .large{
+    flex: 3;
+}
+.row:nth-child(2n) {
+    background-color: #eff0f1;
+}
+#A1, #A2, #A3, #Exam{
+    background-color: #fbe8a6;
+}
+#Exam{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.schedule div.row:hover,#A1:hover, #A2:hover, #A3:hover, #Exam:hover{
+    background-color:#e8491d;
+
+}

@@ -1,0 +1,47 @@
+.resources{
+    background-color: #b4dfe5;
+    margin:auto;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    display: column;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.resources h2{
+    font-size: 20px;
+    margin-left:30px;
+}
+.resources p{
+    font-size: medium;
+    margin-left: 30px;
+}
+.online a, .software a{
+    text-decoration: none;
+    color: #e8491d;
+}
+
+.online a:hover, .software a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+p.links{
+    margin-left: 60px;
+}
+.emailtext {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+}
+.email .emailtext{
+    visibility: hidden;
+    width: auto;
+    background-color: #b4dfe5;
+    color: #e8491d;
+    text-align: center;
+    padding: 5px 10px;
+}
+.email:hover .emailtext{
+    visibility: visible;
+}
